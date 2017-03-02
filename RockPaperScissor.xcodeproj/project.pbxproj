@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		C7DF27501E666D0D0039F9B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF274F1E666D0D0039F9B4 /* AppDelegate.swift */; };
 		C7DF27521E666D0D0039F9B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF27511E666D0D0039F9B4 /* ViewController.swift */; };
-		C7DF27551E666D0D0039F9B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27531E666D0D0039F9B4 /* Main.storyboard */; };
 		C7DF27571E666D0D0039F9B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27561E666D0D0039F9B4 /* Assets.xcassets */; };
 		C7DF275A1E666D0D0039F9B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27581E666D0D0039F9B4 /* LaunchScreen.storyboard */; };
 		C7DF27651E666D0D0039F9B4 /* RockPaperScissorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF27641E666D0D0039F9B4 /* RockPaperScissorTests.swift */; };
 		C7DF27701E666D0D0039F9B4 /* RockPaperScissorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF276F1E666D0D0039F9B4 /* RockPaperScissorUITests.swift */; };
+		C7DF27851E666DA10039F9B4 /* BackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DF277E1E666DA10039F9B4 /* BackGround.jpg */; };
+		C7DF27861E666DA10039F9B4 /* leaf 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DF277F1E666DA10039F9B4 /* leaf 2.png */; };
+		C7DF27871E666DA10039F9B4 /* leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27801E666DA10039F9B4 /* leaf.png */; };
+		C7DF27881E666DA10039F9B4 /* rock 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27811E666DA10039F9B4 /* rock 2.png */; };
+		C7DF27891E666DA10039F9B4 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27821E666DA10039F9B4 /* rock.png */; };
+		C7DF278A1E666DA10039F9B4 /* scissor 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27831E666DA10039F9B4 /* scissor 2.png */; };
+		C7DF278B1E666DA10039F9B4 /* scissor.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27841E666DA10039F9B4 /* scissor.png */; };
+		C7DF27931E666F0F0039F9B4 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF27921E666F0F0039F9B4 /* ItemView.swift */; };
+		C7DF27971E666F4B0039F9B4 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF27961E666F4B0039F9B4 /* GameManager.swift */; };
+		C7DF27991E6670150039F9B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27981E6670150039F9B4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,6 @@
 		C7DF274C1E666D0D0039F9B4 /* RockPaperScissor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DF274F1E666D0D0039F9B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7DF27511E666D0D0039F9B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C7DF27541E666D0D0039F9B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7DF27561E666D0D0039F9B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7DF27591E666D0D0039F9B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7DF275B1E666D0D0039F9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		C7DF276B1E666D0D0039F9B4 /* RockPaperScissorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DF276F1E666D0D0039F9B4 /* RockPaperScissorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorUITests.swift; sourceTree = "<group>"; };
 		C7DF27711E666D0D0039F9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DF277E1E666DA10039F9B4 /* BackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackGround.jpg; sourceTree = "<group>"; };
+		C7DF277F1E666DA10039F9B4 /* leaf 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leaf 2.png"; sourceTree = "<group>"; };
+		C7DF27801E666DA10039F9B4 /* leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf.png; sourceTree = "<group>"; };
+		C7DF27811E666DA10039F9B4 /* rock 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rock 2.png"; sourceTree = "<group>"; };
+		C7DF27821E666DA10039F9B4 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		C7DF27831E666DA10039F9B4 /* scissor 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scissor 2.png"; sourceTree = "<group>"; };
+		C7DF27841E666DA10039F9B4 /* scissor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissor.png; sourceTree = "<group>"; };
+		C7DF27921E666F0F0039F9B4 /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		C7DF27961E666F4B0039F9B4 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		C7DF27981E6670150039F9B4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,15 @@
 		C7DF274E1E666D0D0039F9B4 /* RockPaperScissor */ = {
 			isa = PBXGroup;
 			children = (
+				C7DF277D1E666D610039F9B4 /* Source */,
 				C7DF274F1E666D0D0039F9B4 /* AppDelegate.swift */,
 				C7DF27511E666D0D0039F9B4 /* ViewController.swift */,
-				C7DF27531E666D0D0039F9B4 /* Main.storyboard */,
+				C7DF27981E6670150039F9B4 /* Main.storyboard */,
 				C7DF27561E666D0D0039F9B4 /* Assets.xcassets */,
 				C7DF27581E666D0D0039F9B4 /* LaunchScreen.storyboard */,
 				C7DF275B1E666D0D0039F9B4 /* Info.plist */,
+				C7DF27961E666F4B0039F9B4 /* GameManager.swift */,
+				C7DF27921E666F0F0039F9B4 /* ItemView.swift */,
 			);
 			path = RockPaperScissor;
 			sourceTree = "<group>";
@@ -123,6 +144,20 @@
 				C7DF27711E666D0D0039F9B4 /* Info.plist */,
 			);
 			path = RockPaperScissorUITests;
+			sourceTree = "<group>";
+		};
+		C7DF277D1E666D610039F9B4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C7DF277E1E666DA10039F9B4 /* BackGround.jpg */,
+				C7DF277F1E666DA10039F9B4 /* leaf 2.png */,
+				C7DF27801E666DA10039F9B4 /* leaf.png */,
+				C7DF27811E666DA10039F9B4 /* rock 2.png */,
+				C7DF27821E666DA10039F9B4 /* rock.png */,
+				C7DF27831E666DA10039F9B4 /* scissor 2.png */,
+				C7DF27841E666DA10039F9B4 /* scissor.png */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +228,7 @@
 				TargetAttributes = {
 					C7DF274B1E666D0D0039F9B4 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7MRXJH2RYW;
 						ProvisioningStyle = Automatic;
 					};
 					C7DF275F1E666D0D0039F9B4 = {
@@ -233,8 +269,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7DF275A1E666D0D0039F9B4 /* LaunchScreen.storyboard in Resources */,
+				C7DF27991E6670150039F9B4 /* Main.storyboard in Resources */,
+				C7DF27861E666DA10039F9B4 /* leaf 2.png in Resources */,
+				C7DF278B1E666DA10039F9B4 /* scissor.png in Resources */,
+				C7DF278A1E666DA10039F9B4 /* scissor 2.png in Resources */,
+				C7DF27891E666DA10039F9B4 /* rock.png in Resources */,
+				C7DF27851E666DA10039F9B4 /* BackGround.jpg in Resources */,
 				C7DF27571E666D0D0039F9B4 /* Assets.xcassets in Resources */,
-				C7DF27551E666D0D0039F9B4 /* Main.storyboard in Resources */,
+				C7DF27881E666DA10039F9B4 /* rock 2.png in Resources */,
+				C7DF27871E666DA10039F9B4 /* leaf.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7DF27521E666D0D0039F9B4 /* ViewController.swift in Sources */,
+				C7DF27971E666F4B0039F9B4 /* GameManager.swift in Sources */,
+				C7DF27931E666F0F0039F9B4 /* ItemView.swift in Sources */,
 				C7DF27501E666D0D0039F9B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C7DF27531E666D0D0039F9B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7DF27541E666D0D0039F9B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C7DF27581E666D0D0039F9B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,7 +449,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MRXJH2RYW;
 				INFOPLIST_FILE = RockPaperScissor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.ttung.RockPaperScissor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +463,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MRXJH2RYW;
 				INFOPLIST_FILE = RockPaperScissor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.ttung.RockPaperScissor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
